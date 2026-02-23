@@ -14,6 +14,7 @@ public class ImportMath {
         System.out.println("floor value:" +Math.floor(number));
         System.out.println("max value:" +Math.max(number,20));
         System.out.println("min value:" +Math.min(number, 10));
+        System.out.println("random value:" +Math.random);
 
 
 
