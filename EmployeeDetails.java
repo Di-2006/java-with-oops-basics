@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class EmployeeDetails {
     public static void main(String[] args){
-        String name;
+        String name; 
         int age;
         long phonenumber;
         float salary;

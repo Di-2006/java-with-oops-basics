@@ -23,6 +23,7 @@ class ConditionalStatements {
         }
         else{
             System.out.println("num3 is the greater number");
+        }
         // nested if statements
         if(num1 > num2){ 
             if(num1 > num3){
@@ -41,5 +42,4 @@ class ConditionalStatements {
             }
         }   
     }
-}
 }
