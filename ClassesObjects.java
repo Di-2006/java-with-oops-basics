@@ -2,7 +2,10 @@ class Box{
     double height;
     double width;
     double breath;
-
+    void volume(){
+        double volume = height * width * breath;
+        System.out.println("Volume: " + volume);
+    }
 }
 public class ClassesObjects {
     public static void main(String[] args){
@@ -18,14 +21,12 @@ public class ClassesObjects {
         System.out.println("Height: " + obj1.height);
         System.out.println("Width: " + obj1.width);
         System.out.println("Breath: " + obj1.breath);
-        double volume = obj1.height * obj1.width * obj1.breath;
-        System.out.println("Volume: " + volume);
+        obj1.volume();
         System.out.println("for object 2:");
         System.out.println("Height: " + obj2.height);
         System.out.println("Width: " + obj2.width);
         System.out.println("Breath: " + obj2.breath);
-        double volume2 = obj2.height * obj2.width * obj2.breath;
-        System.out.println("Volume: " + volume2);
+        obj2.volume();
     }
     
 }
